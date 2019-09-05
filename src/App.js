@@ -1,10 +1,11 @@
 import React from 'react';
-import './App.less';
+import { Button } from 'antd-mobile'
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{fontSize: '20px'}}>
       Hello React
+      <Button type="primary">Start</Button>
     </div>
   );
 }

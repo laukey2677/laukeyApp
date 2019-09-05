@@ -1,9 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import 'lib-flexible';
+import initReactFastclick from 'react-fastclick';
+// import 'antd-mobile/dist/antd-mobile.less'
+
+initReactFastclick();
 
 ReactDOM.render(<App />, document.getElementById('root'));
 

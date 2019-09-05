@@ -1,12 +1,21 @@
 import React from 'react';
-import { Button } from 'antd-mobile'
+import { BrowserRouter as Router , Route } from 'react-router-dom'
+import List from '_p/list.js'
+import Record from '_p/record.js'
+import { CSSTransition, TransitionGroup } from 'react-transition-group'
 
-function App() {
+
+function App () {
   return (
-    <div className="App" style={{fontSize: '20px'}}>
-      Hello React
-      <Button type="primary">Start</Button>
+    <div className="App">
+      <Router>
+        <TransitionGroup>
+          <Route path="/" exact component={List} />
+          <Route path="/record" component={Record} />
+        </TransitionGroup>
+      </Router>
     </div>
+    
   );
 }
 

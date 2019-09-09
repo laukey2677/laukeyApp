@@ -1,10 +1,13 @@
 const defaultState = {
   data:[
-    'sdfsdfsdfsfsfsfsdf',
-    'sdfsdfsdfsfsfsfsdf',
-    'sdfsdfsdfsfsfsfsdf',
-    'sdfsdfsdfsfsfsfsdf',
-    'sdfsdfsdfsfsfsfsdf'
+    {
+      productId:999,
+      product: {
+        imgUrl: 'https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg',
+        name: '雨伞',
+        number: 25,
+      }
+    }
   ]
 };
 

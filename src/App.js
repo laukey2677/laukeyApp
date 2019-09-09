@@ -1,7 +1,6 @@
 import React from 'react';
 import Routers from './Routers'
 
-function App () {
+export default function App (props) {
   return <Routers/>;
 }
-export default App;

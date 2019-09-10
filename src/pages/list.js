@@ -12,7 +12,7 @@ const stateToProps = (state) => {
 function _List (props) {
   return (
     <StickeyBox title="押金借还">
-      <div>
+      <div style={{padding: '10px'}}>
         {
           props.data.map((item) => (
             <ServiceCard data={item.product} key={item.productId} />

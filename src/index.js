@@ -7,6 +7,7 @@ import initReactFastclick from 'react-fastclick';
 import './assets/css/index.less';
 import store from './store'
 import { Provider } from 'react-redux'
+import './assets/fonts/iconfont.css'
 
 initReactFastclick();
 

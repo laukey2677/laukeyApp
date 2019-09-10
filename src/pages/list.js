@@ -15,7 +15,7 @@ function _List (props) {
       <div>
         {
           props.data.map((item) => (
-            <ServiceCard data={item} key={item.productId} />
+            <ServiceCard data={item.product} key={item.productId} />
           ))
         }
       </div>
